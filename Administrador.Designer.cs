@@ -30,7 +30,7 @@ namespace Onlypans
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -42,13 +42,13 @@ namespace Onlypans
             this.label1.TabIndex = 0;
             this.label1.Text = "Historial Ventas";
             // 
-            // richTextBox1
+            // richTextBox2
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(12, 29);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(567, 173);
-            this.richTextBox1.TabIndex = 1;
-            this.richTextBox1.Text = "";
+            this.richTextBox2.Location = new System.Drawing.Point(12, 29);
+            this.richTextBox2.Name = "richTextBox2";
+            this.richTextBox2.Size = new System.Drawing.Size(567, 173);
+            this.richTextBox2.TabIndex = 1;
+            this.richTextBox2.Text = "";
             // 
             // Administrador
             // 
@@ -56,7 +56,7 @@ namespace Onlypans
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(591, 276);
-            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.label1);
             this.Name = "Administrador";
             this.Text = "Administrador";
@@ -68,6 +68,6 @@ namespace Onlypans
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        public System.Windows.Forms.RichTextBox richTextBox2;
     }
 }

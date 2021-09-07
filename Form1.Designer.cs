@@ -41,7 +41,7 @@ namespace Onlypans
             // 
             // loginbutton
             // 
-            this.loginbutton.Location = new System.Drawing.Point(147, 189);
+            this.loginbutton.Location = new System.Drawing.Point(152, 147);
             this.loginbutton.Name = "loginbutton";
             this.loginbutton.Size = new System.Drawing.Size(75, 23);
             this.loginbutton.TabIndex = 1;

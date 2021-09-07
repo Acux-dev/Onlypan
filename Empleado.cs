@@ -34,5 +34,12 @@ namespace Onlypans
             richTextBox1.AppendText(CC.Text + "\r\n");
             richTextBox1.AppendText(fecha.Text + "\r\n");
         }
+
+        private void exportar_Click(object sender, EventArgs e)
+        {
+            Administrador ventatotal = new Administrador();
+            ventatotal.richTextBox2.Text = richTextBox1.Text;
+            ventatotal.Show();
+        }
     }
 }

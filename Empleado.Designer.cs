@@ -47,6 +47,7 @@ namespace Onlypans
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.exportar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -197,12 +198,23 @@ namespace Onlypans
             this.richTextBox1.TabIndex = 18;
             this.richTextBox1.Text = "";
             // 
+            // exportar
+            // 
+            this.exportar.Location = new System.Drawing.Point(582, 89);
+            this.exportar.Name = "exportar";
+            this.exportar.Size = new System.Drawing.Size(75, 23);
+            this.exportar.TabIndex = 19;
+            this.exportar.Text = "Exportar";
+            this.exportar.UseVisualStyleBackColor = true;
+            this.exportar.Click += new System.EventHandler(this.exportar_Click);
+            // 
             // Empleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(669, 296);
+            this.Controls.Add(this.exportar);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label9);
@@ -248,5 +260,6 @@ namespace Onlypans
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Button exportar;
     }
 }
